@@ -1,0 +1,73 @@
+
+
+* {
+    outline-offset: 2px;
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Gotham SSm', sans-serif;
+    line-height: 1.7em;
+
+}
+body {
+    background: url(/img/Model-3-Main-Hero-Section-LHD.jpeg) no-repeat center center/cover ;
+    min-height: 800px;
+    max-width: 1000px; 
+    color: #fff;
+
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+                                                
+}
+ul{
+    list-style: none; 
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+/* navbar */
+#navbar{
+overflow: auto;  
+}
+#navbar a{
+    color: #fff;
+}
+#navbar .logo {
+    display: block;
+    float: left;
+    padding-top: 5px;
+}
+a.logo {
+   width: 12x;
+   height: 100px;
+   color: inherit;
+}
+#navbar-right ul{
+    float: right;
+    
+}
+#navbar-mid {
+    
+    text-align: center;
+    
+}
+#navbar li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+#navbar ul{
+    list-style: none;
+}
